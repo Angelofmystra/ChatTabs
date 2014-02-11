@@ -18,7 +18,7 @@ import javafx.scene.layout.BorderPane;
  * @see javafx.scene.control.TabPane
  * @see javafx.scene.control.Tab
  */
-public class ChatTabList extends Application {
+public class ChatList extends Application {
     final TabPane tabPane = new TabPane(); // put here so that the Event Handler can see it   
     
     private void init(Stage primaryStage) {
